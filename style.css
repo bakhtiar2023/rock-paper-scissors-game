@@ -1,0 +1,188 @@
+.body {
+  font-family: "Open Sans" !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+}
+
+.navbar {
+  width: 100vw !important;
+  height: 10vh !important;
+  background-color: #9c835f63 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+}
+
+.navbar .backspace {
+  color: #724c21;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh !important;
+  background-color: #9c835f !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0;
+  margin-top: 6rem !important;
+}
+
+.playerSide {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 70vh !important;
+}
+
+.playerName {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Open Sans";
+  letter-spacing: 10%;
+  line-height: 2rem !important;
+}
+
+.btnGamesPlayer {
+  display: flex !important;
+  justify-content: center !important;
+  align-self: center !important;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border : none !important;
+}
+
+.btnGamesPlayer:hover{
+  background-color: #C4C4C4;
+  transition: all 0.4s ease-in-out;
+  border : 0.1rem solid #C4C4C4;
+  border-radius : 1.2rem;
+  cursor: pointer;
+}
+
+.batuImg {
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+  width: 39% !important;
+}
+
+.kertasImg {
+  width: 33% !important;
+}
+
+.guntingImg {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 35% !important;
+}
+
+.btnGamesCom {
+  display: flex !important;
+  justify-content: center !important;
+  align-self: center !important;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none !important;
+}
+
+.versusText {
+  font-size: 7rem;
+  color: #bd0000;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.computerSide {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 70vh !important;
+}
+
+.containerRestart {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 0rem !important;
+}
+
+.restartContainer {
+  display: flex !important;
+  justify-content: center !important;
+  align-self: center !important;
+}
+
+.restartBtn {
+  width: 7% !important;
+  transition: transform 0.3s ease-out;
+}
+
+.restartBtn:hover{
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.playerChoice {
+  pointer-events: none !important;
+}
+
+.playerChoiceStyle {
+  border : 0.1rem solid #C4C4C4;
+  border-radius : 1.2rem;
+  background-color : #C4C4C4;
+  transition : all 0.3s ease-in-out;
+}
+
+.computerChoice{
+  border : 0.1rem solid #C4C4C4;
+  border-radius : 1.2rem;
+  background-color : #C4C4C4;
+  transition : all 0.3s ease-in-out;
+}
+
+.resultGame{
+  background-color: #4C9654!important;
+  font-size : 1.3rem!important;
+  letter-spacing: 0.1em!important;
+  color : #FFFFFF!important;
+  transition : transform 0.5s ease-in-out!important;
+  transform : rotate(-20deg)!important;
+  display : flex!important;
+  align-items : center!important;
+  justify-content: center!important;
+  width : 10rem!important;
+  height : 8rem!important;
+}
+@media (max-width: 768px) {
+  .batuImg {
+    width: 50% !important;
+  }
+
+  .kertasImg {
+    width: 43% !important;
+  }
+
+  .guntingImg {
+    width: 40% !important;
+  }
+
+  .versusText {
+    width: 10rem !important;
+    height: 70% !important;
+    font-size: 3rem;
+  }
+}
